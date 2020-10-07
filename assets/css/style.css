@@ -1,0 +1,164 @@
+/*esta es RALEWAY Light (300).
+font-family: 'Raleway', sans-serif;*/
+
+/* Medium 500 font-family: 'Raleway', sans-serif;*/
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* esto permite no dejar espacios que vienen por defecto, normaliza o regulariza los estilos */
+}
+
+div{
+    display: inline-block;
+}
+
+nav {
+   background-color: #000000;
+   opacity: 1;
+   width: 1280px;
+   height: 73px; 
+   padding-top: 10px;
+}
+
+nav h1 {
+    font-weight: 500;
+    color:#FFFFFF ;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 529px 0 530px;
+}
+
+
+/*iguana grande*/
+
+header{
+    opacity: 1;
+    width: 1280px;
+    height: 727px;
+}
+.bg-header{
+    width: 100%;  
+}
+
+
+/*contenido*/
+.desc-section{
+   background-color: #000000;
+   opacity: 1;
+   width: 1280px;
+   height: 348px;
+}
+
+.desc-section .texto{
+    float: left;
+}
+
+.texto{
+    width: 475px;
+    height: 197px;
+    display: inline-block;
+    margin: 58px 0 0px 150px;
+}
+.desc-section div p {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.desc-section .imagen{
+    float: left;
+    margin: 45px 150px 66px 106px;
+}
+.desc-section .imagen img{
+    width: 399px;
+    height: 237px;
+}
+
+
+/* section características*/
+
+.caracteristicas{
+    background-color: #1E1A13;
+    opacity: 0.98;
+    color: #FFFFFF;
+    width: 1280px;
+    height: 348px;
+    text-align: center;  
+}
+
+.caracteristicas h2{
+    font-weight: 500;
+    color:#FFFFFF ;
+    font-size: 40px;
+    text-align: left;
+    opacity: 1;
+    margin: 0 460.5px 0px 463.5px;
+    padding-top: 75px;
+}
+
+.caracteristicas p {
+    font-weight: 300;
+    font-size: 24px;
+    color:#FFFFFF ;
+    opacity: 1;   
+}
+
+i{
+    font-size: 40px;
+}
+
+.eye{
+    margin-right: 182px;
+    margin-top: 50px;  
+}
+
+.peace{
+    margin-right: 182px; 
+}
+
+
+/* secction 3 fotos */
+
+.fotos{
+    width: 1280px;
+    height: 348px;
+    background-color:#000000 ;
+    opacity: 0.96;
+}
+
+.fotos div img{
+    width: 316px;
+    height: 202px;
+    display: inline-block;
+    margin-top: 73px;
+}
+
+.iguana-2{
+    margin-left: 150px;
+}
+
+.iguana-3{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+
+/* footer*/
+
+footer{
+    background-color:#1E1A13 ;
+    opacity: 0.94;
+    width: 1280px;
+    height: 102px;
+    display: inline-block;
+}
+
+footer p{
+    font-weight: 300;
+    font-size: 20px;
+    color:#FFFFFF ;
+    text-align: center;
+    margin: 39px 299px 39px 299px;
+}
